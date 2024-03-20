@@ -43,16 +43,16 @@
 
 <h3>Mundo 3: Estruturas Compostas</h3>
 
-<h4>Módulo 11 - Tuplas</h4>
+<h4>Módulo 11 - Tuplas :white_check_mark: </h4>
 
-<h4>Módulo 12 - Listas</h4>
+<h4>Módulo 12 - Listas :white_check_mark: </h4>
 
-<h4>Módulo 13 - Dicionários</h4>
+<h4>Módulo 13 - Dicionários :white_check_mark: </h4>
 
-<h4>Módulo 14 - Funções</h4>
+<h4>Módulo 14 - Funções :white_check_mark: </h4>
 
-<h4>Módulo 15 - Módulos e Pacotes</h4>
+<h4>Módulo 15 - Módulos e Pacotes :white_check_mark: </h4>
 
-<h4>Módulo 16 - Tratamento de erros e excessões</h4>
+<h4>Módulo 16 - Tratamento de erros e excessões :white_check_mark: </h4>
 
  
