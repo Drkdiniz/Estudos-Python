@@ -5,7 +5,7 @@
 
 import random
 numero = int(input('Informe um número entre 0 e 5: '))
-lista = [1,2,3,4,5]
+lista = [1, 2, 3, 4, 5]
 n1 = random.choice(lista)
 if numero == n1:
    print('Você acertou!')
