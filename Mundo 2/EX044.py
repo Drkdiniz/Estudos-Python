@@ -19,16 +19,16 @@ elif condicao == '2':
     print(f'Você ganhou 5% de desconto! O valor do seu produto é de R${preco - (preco * 0.05):.2f}')
 
 elif condicao == '3':
-    total = preco
-    parcela = total / 2
-    print(f'Sua compara será parcelada em 2x de R${parcela}')
+    total_3 = preco
+    parcela = total_3 / 2
+    print(f'Sua compara será parcelada em 2x de R${parcela:.2f}')
     print(f'Você não ganha nenhum desconto! O valor do seu produto continua sendo de R${preco:.2f}')
 
 elif condicao == '4':
-     total = preco + (preco * 0.20)
+     total_4 = preco + (preco * 0.20)
      total_parcelas = int(input('Quantas parcelas? '))  
-     parcela = total / total_parcelas
+     parcela = total_4 / total_parcelas
      print(f'No parcelamento de {total_parcelas}x sua compara será parcelada em R${parcela:.2f}!')
-     print(f'Você terá juros de 20%, logo seu produto passará a custar R${total:.2f}')
+     print(f'Você terá juros de 20%, logo seu produto passará a custar R${total_4:.2f}')
 else:
     print('Opção inválida! Selecione a opção correta!')

@@ -12,10 +12,10 @@ média = (at1 + at2) / 2
 if média < 5.0:
     print(f'Sua média foi de {média:.1f} e você foi reprovado!')
 
-elif média >= 5.0 and média <= 6.9:
+elif 5.0 >= média <= 6.9:
     print(f'Sua média foi de {média:.1f} e você ficou de recuperação!')
 
-elif média >= 7.0 and média <= 9.9:
+elif 7.0 >= média <= 9.9:
     print(f'Sua média foi de {média:.1f} e você foi aprovado!')
 
 else:

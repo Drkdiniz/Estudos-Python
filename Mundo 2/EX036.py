@@ -6,9 +6,9 @@ valor_imovel = float(input('Qual o valor do imóvel?: '))
 salario = float(input('Qual o valor do seu salário?: '))
 tempo = float(input('Em quanto tempo deseja pagar (anos)?: '))
 
-prestação=valor_imovel/(tempo*12)
+prestação = valor_imovel / (tempo * 12)
 
-if prestação>(salario*0.3):
+if prestação > (salario*0.3):
     print('''O valor da prestação excede 30% do seu salário, 
           portanto o empréstimo foi negado ''')
 else:

@@ -9,7 +9,7 @@ n1 = int(input('Insira o valor do primeiro vértice: '))
 n2 = int(input('Insira o valor do segundo vértice: '))
 n3 = int(input('Insira o valor do terceiro vértice: '))
 
-if n1 < n2 + n3 and n2 < n1 + n3 and n3 < n1 + n2:
+if n1 < (n2 + n3) and n2 < (n1 + n3) and n3 < (n1 + n2):
     
     if n1 == n2 == n3:
         print('O triângulo é Equilátero!')
